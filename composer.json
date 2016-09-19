@@ -1,0 +1,28 @@
+{
+    "name": "fwolf/singleton",
+    "description": "Singleton and SingleInstance trait",
+    "type": "library",
+    "keywords": [
+        "singleton"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fwolf",
+            "email": "fwolf.aide+singleton.php@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fwolf\\Base\\Singleton\\": "src/Singleton/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FwolfTest\\Base\\Singleton\\": "tests/Singleton/"
+        }
+    }
+}
